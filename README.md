@@ -1,7 +1,7 @@
 # TRAN CONG DANH - SVTT - Mentor: LUU VAN LAN - XXE - Day Started: 26/05/2024.
 
 ## Mục lục:
-1.[What is XML external entity injection?](#what-is-xml-external-entity-injection)
+1. [What is XML external entity injection?](#what-is-xml-external-entity-injection)
 
 2. [How do XXE vulnerabilities arise?](#how-do-xxe-vulnerabilities-arise)
 
