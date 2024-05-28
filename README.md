@@ -1,18 +1,22 @@
 # TRAN CONG DANH - SVTT - Mentor: LUU VAN LAN - XXE - Day Started: 26/05/2024.
 
 ## Mục lục:
-1.[What is XML external entity injection?](what-is-xml-external-entity-injection)
+1.[What is XML external entity injection?](#what-is-xml-external-entity-injection)
+
+2. [How do XXE vulnerabilities arise?](#how-do-xxe-vulnerabilities-arise)
+
+3. [What are the types of XXE attacks?](#what-are-the-types-of-xxe-attacks)
 - ## What is XML external entity injection?
 
 XML external entity injection (also known as XXE) is a web security vulnerability that allows an attacker to interfere with an application's processing of XML data. It often allows an attacker to view files on the application server filesystem, and to interact with any back-end or external systems that the application itself can access.
 
-- **How do XXE vulnerabilities arise?**
+- ## How do XXE vulnerabilities arise?
 
 Some applications use the XML format to transmit data between the browser and the server. Applications that do this virtually always use a standard library or platform API to process the XML data on the server. XXE vulnerabilities arise because the XML specification contains various potentially dangerous features, and standard parsers support these features even if they are not normally used by the application.
 
 - XML external entities are a type of custom XML entity whose defined values are loaded from outside of the DTD in which they are declared. External entities are particularly interesting from a security perspective because they allow an entity to be defined based on the contents of a file path or URL.
 
-- **What are the types of XXE attacks?**
+- ## What are the types of XXE attacks?
 
   There are various types of XXE attacks:
 
